@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -24,27 +26,31 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .cameraView {
     border: 1px solid #ccc;
     height: 200px;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 .infoSection {
     text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
 }
 
 .infoRow {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 label {
     flex: 1;
-    font-weight: bold;
 }
 
 div[id^="partNumber"],
@@ -55,4 +61,3 @@ div[id^="quantity"] {
     border: 1px solid #ccc;
     padding: 5px;
 }
-
